@@ -1250,8 +1250,8 @@ footer .custom-logo img {
 
 footer .custom-logo2 img {
   filter: brightness(0) invert(1);
-  width: 26px; /* Adjust the width as needed */
+  width: 24px; /* Adjust the width as needed */
   height: auto;
-  margin-top: -13px;
+  margin-top: -5px;
 }
 
