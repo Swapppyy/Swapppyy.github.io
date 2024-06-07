@@ -1242,9 +1242,15 @@ footer .custom-logo img {
   height: 23px; /* Set the desired height */
 }
 
-.custom-logo2 img {
+#hero .custom-logo2 img {
   width: 28px; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
   margin-top: -10px;
+}
+
+footer .custom-logo2 img {
+  filter: brightness(0) invert(1);
+  width: 26px; /* Adjust the width as needed */
+  height: auto;
 }
 
