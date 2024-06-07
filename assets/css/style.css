@@ -1241,3 +1241,10 @@ footer .custom-logo img {
   width: 23px; /* Set the desired width */
   height: 23px; /* Set the desired height */
 }
+
+.custom-logo2 img {
+  width: 28px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: -10px;
+}
+
