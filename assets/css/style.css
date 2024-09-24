@@ -1288,7 +1288,7 @@ footer .custom-logo2 img {
 /* Ensure spacing for small screens */
 @media (max-width: 768px) {
   .logo-container img {
-    flex-basis: calc(40px); /* Two logos per row for smaller screens */
+    flex-basis: 20px; /* Two logos per row for smaller screens */
   }
 }
 
