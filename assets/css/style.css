@@ -1279,16 +1279,16 @@ footer .custom-logo2 img {
 }
 
 .logo-container img {
-  flex-basis: calc(40px); /* Each logo takes 1/5th of the row minus gap */
-  max-width: 80;
-  height: 40;
-  object-fit: contain;
+  flex-basis: 50px; /* Set a consistent base size */
+  max-width: 100%;   /* Ensure images don't exceed container */
+  height: auto;      /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure logos are contained within their box */
 }
 
 /* Ensure spacing for small screens */
 @media (max-width: 768px) {
   .logo-container img {
-    flex-basis: 20px; /* Two logos per row for smaller screens */
+    flex-basis: 50%; /* Two logos per row for smaller screens */
   }
 }
 
